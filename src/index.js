@@ -100,7 +100,15 @@ export {
   UpdateDecoderV1,
   UpdateDecoderV2,
   equalDeleteSets,
-  snapshotContainsUpdate
+  snapshotContainsUpdate,
+  /** Additional exports to recreate undo */
+  DeleteSet,
+  StackItem,
+  addToDeleteSet,
+  followRedone,
+  getItemCleanStart,
+  keepItem,
+  redoItem
 } from './internals.js'
 
 const glo = /** @type {any} */ (typeof globalThis !== 'undefined'
