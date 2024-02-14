@@ -102,6 +102,7 @@ export {
   equalDeleteSets,
   snapshotContainsUpdate,
   /** Additional exports to recreate undo */
+  mergeDeleteSets,
   DeleteSet,
   StackItem,
   addToDeleteSet,

@@ -10309,6 +10309,7 @@ exports.keepItem = keepItem;
 exports.logType = logType;
 exports.logUpdate = logUpdate;
 exports.logUpdateV2 = logUpdateV2;
+exports.mergeDeleteSets = mergeDeleteSets;
 exports.mergeUpdates = mergeUpdates;
 exports.mergeUpdatesV2 = mergeUpdatesV2;
 exports.obfuscateUpdate = obfuscateUpdate;
