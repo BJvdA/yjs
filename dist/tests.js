@@ -13816,7 +13816,8 @@
     tryGc: tryGc$1,
     typeListToArraySnapshot: typeListToArraySnapshot,
     typeMapGetAllSnapshot: typeMapGetAllSnapshot,
-    typeMapGetSnapshot: typeMapGetSnapshot
+    typeMapGetSnapshot: typeMapGetSnapshot,
+    writeUpdateMessageFromTransaction: writeUpdateMessageFromTransaction
   });
 
   /**
@@ -14512,7 +14513,8 @@
     typeListToArraySnapshot: typeListToArraySnapshot,
     typeMapGetAllSnapshot: typeMapGetAllSnapshot,
     typeMapGetSnapshot: typeMapGetSnapshot,
-    get useV2 () { return useV2; }
+    get useV2 () { return useV2; },
+    writeUpdateMessageFromTransaction: writeUpdateMessageFromTransaction
   });
 
   /**

@@ -10333,7 +10333,8 @@ var Y$1 = /*#__PURE__*/Object.freeze({
   tryGc: tryGc$1,
   typeListToArraySnapshot: typeListToArraySnapshot,
   typeMapGetAllSnapshot: typeMapGetAllSnapshot,
-  typeMapGetSnapshot: typeMapGetSnapshot
+  typeMapGetSnapshot: typeMapGetSnapshot,
+  writeUpdateMessageFromTransaction: writeUpdateMessageFromTransaction
 });
 
 /**
@@ -11029,7 +11030,8 @@ var Y = /*#__PURE__*/Object.freeze({
   typeListToArraySnapshot: typeListToArraySnapshot,
   typeMapGetAllSnapshot: typeMapGetAllSnapshot,
   typeMapGetSnapshot: typeMapGetSnapshot,
-  get useV2 () { return useV2; }
+  get useV2 () { return useV2; },
+  writeUpdateMessageFromTransaction: writeUpdateMessageFromTransaction
 });
 
 /**

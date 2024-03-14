@@ -109,7 +109,8 @@ export {
   followRedone,
   getItemCleanStart,
   keepItem,
-  redoItem
+  redoItem,
+  writeUpdateMessageFromTransaction
 } from './internals.js'
 
 const glo = /** @type {any} */ (typeof globalThis !== 'undefined'

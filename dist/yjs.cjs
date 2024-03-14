@@ -10327,4 +10327,5 @@ exports.tryGc = tryGc;
 exports.typeListToArraySnapshot = typeListToArraySnapshot;
 exports.typeMapGetAllSnapshot = typeMapGetAllSnapshot;
 exports.typeMapGetSnapshot = typeMapGetSnapshot;
+exports.writeUpdateMessageFromTransaction = writeUpdateMessageFromTransaction;
 //# sourceMappingURL=yjs.cjs.map
